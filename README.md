@@ -510,6 +510,6 @@ body {
 
 演示图片来源：网络
 
-项目演示地址：https://yancyqi2002.github.io/bootstrap-responsive-layout-demo
+项目演示地址：https://yancyqi2002.github.io/bootstrap-responsive-layout-demo/index.html
 
 项目仓库：https://github.com/YancyQi2002/bootstrap-responsive-layout-demo
