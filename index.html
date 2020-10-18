@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![engif] -->
+    <title>Document</title>
+    <!-- 引入bootstrap样式文件 -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- 引入自己的首页样式文件 -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-md-2">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" class="d-none d-sm-block">
+                        <span class="d-sm-none">阿里百秀</span>
+                    </a>
+                </div>
+
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                                </svg>
+                                生活馆
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-image" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                </svg>
+                                自然汇
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                    <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                </svg>
+                                科技潮
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wallet-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                                    <path d="M16 6.5h-5.551a2.678 2.678 0 0 1-.443 1.042C9.613 8.088 8.963 8.5 8 8.5c-.963 0-1.613-.412-2.006-.958A2.679 2.679 0 0 1 5.551 6.5H0v6A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6z"/>
+                                </svg>
+                                奇趣事
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg width="1em" height="1.0625em" viewBox="0 0 16 17" class="bi bi-cup-straw" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M13.964 1.18a.5.5 0 0 1-.278.65l-2.255.902-.462 2.08c.375.096.714.216.971.368.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.955 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 6.132A.78.78 0 0 1 3.5 6c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 4.614 6.867 4.5 8 4.5c.712 0 1.389.045 1.985.127l.527-2.37a.5.5 0 0 1 .302-.355l2.5-1a.5.5 0 0 1 .65.279zM9.768 5.608A13.991 13.991 0 0 0 8 5.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 6c.146.073.362.15.648.222C5.967 6.39 6.924 6.5 8 6.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756a5.513 5.513 0 0 0 1.325-.297l-.845 8.03c-.013.12-.06.185-.102.214-.357.249-1.167.69-2.438.69-1.27 0-2.08-.441-2.438-.69-.041-.029-.09-.094-.102-.214l-.845-8.03c.137.046.283.088.435.126.774.194 1.817.308 2.95.308.742 0 1.445-.049 2.06-.137zm-5.593-1.48s.003.002.005.006l-.005-.006zm7.066 0l-.005.006a.026.026 0 0 1 .005-.006zM11.354 6a3.282 3.282 0 0 1-.703.235l.1-.446c.264.069.464.142.603.211z"/>
+                                </svg>
+                                美食街
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <article class="col-md-7">
+                <!-- 新闻 -->
+                <div class="news clearfix">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="upload/lg.png">
+                                <p>Harmony OS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="upload/1.jpeg">
+                                <p>工信部副部长：坚持适度超前原则稳步推进5G网络部署</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="upload/2.jpeg">
+                                <p>正宗一脉 大纛之家，万人送别谭元寿先生！</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="upload/3.gif">
+                                <p>品种多、人气旺！2020秋季早茶集市火爆开市~</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://yancyqi2002.github.io/Personal-page/" target="_blank">
+                                <img src="upload/4.png">
+                                <p>个人学习前端开发页面</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 发表 -->
+                <div class="publish">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <h3>科技潮 华为：持续创新，引领5G</h3>
+                            <p class="text-muted d-none d-sm-block">砍柴网 发布时间：10-16  16:11 砍柴网官方百家号</p>
+                            <p class="d-none d-sm-block">2020年10月15日，在IMT-2020（5G）大会 5G创新发展高峰论坛上，华为无线产品线副总裁甘斌发表了《持续创新，引领5G》的主题演讲。会上，甘斌表示，“从19年商用至今，中国在5G网络体验、用户发展、终端生态、行业应用等领域一直引领整个5G产业。未来产业各方仍需协同创新，助力中国5G持续领先。”</p>
+                            <p class="text-muted">阅读(520) 评论(2) 赞(200) <span class="d-none d-sm-block">标签：华为 / 科技 / 创新 / 5G</span></p>
+                        </div>
+                        <div class="col-sm-3 pic d-none d-sm-block">
+                            <img src="upload/5.jpg">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <h3>科技潮 华为：持续创新，引领5G</h3>
+                            <p class="text-muted d-none d-sm-block">砍柴网 发布时间：10-16  16:11 砍柴网官方百家号</p>
+                            <p class="d-none d-sm-block">2020年10月15日，在IMT-2020（5G）大会 5G创新发展高峰论坛上，华为无线产品线副总裁甘斌发表了《持续创新，引领5G》的主题演讲。会上，甘斌表示，“从19年商用至今，中国在5G网络体验、用户发展、终端生态、行业应用等领域一直引领整个5G产业。未来产业各方仍需协同创新，助力中国5G持续领先。”</p>
+                            <p class="text-muted">阅读(520) 评论(2) 赞(200) <span class="d-none d-sm-block">标签：华为 / 科技 / 创新 / 5G</span></p>
+                        </div>
+                        <div class="col-sm-3 pic d-none d-sm-block">
+                            <img src="upload/5.jpg">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <h3>科技潮 华为：持续创新，引领5G</h3>
+                            <p class="text-muted d-none d-sm-block">砍柴网 发布时间：10-16  16:11 砍柴网官方百家号</p>
+                            <p class="d-none d-sm-block">2020年10月15日，在IMT-2020（5G）大会 5G创新发展高峰论坛上，华为无线产品线副总裁甘斌发表了《持续创新，引领5G》的主题演讲。会上，甘斌表示，“从19年商用至今，中国在5G网络体验、用户发展、终端生态、行业应用等领域一直引领整个5G产业。未来产业各方仍需协同创新，助力中国5G持续领先。”</p>
+                            <p class="text-muted">阅读(520) 评论(2) 赞(200) <span class="d-none d-sm-block">标签：华为 / 科技 / 创新 / 5G</span></p>
+                        </div>
+                        <div class="col-sm-3 pic d-none d-sm-block">
+                            <img src="upload/5.jpg">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <h3>科技潮 华为：持续创新，引领5G</h3>
+                            <p class="text-muted d-none d-sm-block">砍柴网 发布时间：10-16  16:11 砍柴网官方百家号</p>
+                            <p class="d-none d-sm-block">2020年10月15日，在IMT-2020（5G）大会 5G创新发展高峰论坛上，华为无线产品线副总裁甘斌发表了《持续创新，引领5G》的主题演讲。会上，甘斌表示，“从19年商用至今，中国在5G网络体验、用户发展、终端生态、行业应用等领域一直引领整个5G产业。未来产业各方仍需协同创新，助力中国5G持续领先。”</p>
+                            <p class="text-muted">阅读(520) 评论(2) 赞(200) <span class="d-none d-sm-block">标签：华为 / 科技 / 创新 / 5G</span></p>
+                        </div>
+                        <div class="col-sm-3 pic d-none d-sm-block">
+                            <img src="upload/5.jpg">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <h3>科技潮 华为：持续创新，引领5G</h3>
+                            <p class="text-muted d-none d-sm-block">砍柴网 发布时间：10-16  16:11 砍柴网官方百家号</p>
+                            <p class="d-none d-sm-block">2020年10月15日，在IMT-2020（5G）大会 5G创新发展高峰论坛上，华为无线产品线副总裁甘斌发表了《持续创新，引领5G》的主题演讲。会上，甘斌表示，“从19年商用至今，中国在5G网络体验、用户发展、终端生态、行业应用等领域一直引领整个5G产业。未来产业各方仍需协同创新，助力中国5G持续领先。”</p>
+                            <p class="text-muted">阅读(520) 评论(2) 赞(200) <span class="d-none d-sm-block">标签：华为 / 科技 / 创新 / 5G</span></p>
+                        </div>
+                        <div class="col-sm-3 pic d-none d-sm-block">
+                            <img src="upload/5.jpg">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <aside class="col-md-3">
+                <a href="#" class="banner">
+                    <img src="upload/zgboke.jpg" >
+                </a>
+                <a href="#" class="hot">
+                    <span class="btn btn-primary">热搜</span>
+                    <h4 class="text-primary">欢迎加入中国博客联盟</h4>
+                    <p class="text-muted">这里收录了国内各个领域的优秀博客，是一个全人工编辑的的开放式博客联盟交流和展示平台......</p>
+                </a>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
